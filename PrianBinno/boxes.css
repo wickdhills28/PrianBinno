@@ -1,0 +1,77 @@
+body{
+	text-align:center;
+	background:black;
+/* 	font-family: "Optima"; */
+}
+
+h1{
+	width:50px
+	border: 2px solid blue;
+	text-align: center;
+/* 	color: rgba(220,30,30,.6); */
+	color: rgba(200,200,30,.9);
+	font-size: 100px
+}
+
+p{
+	text-align:center;
+	font-size:2.0em;
+}
+ 
+/* padding,border,margin */
+/* "margin" requires 4 values ... margin: top right bottom left */
+/* use auto for margin attribute */
+/* when margin only given 2 values, first value is top/bottom, 
+		second value is right/left */
+
+#fair{
+	border-top: 2px solid rgba(200,200,30,.7);
+/* 	use top-border for division line */
+
+	text-transform: uppercase;
+	color: rgba(200,200,30,.7);
+	padding: 40px 40px 10px 40px;
+} 
+
+#bigb{
+/* 	use top-border for division line */
+	text-transform:lowercase;
+/* 	text-transform: uppercase; */
+	color: rgba(200,200,30,.7);
+	font-family:"Arial Black";
+	font-size:50px;	
+} 
+/* 
+
+#bigb:hover{
+	text-decoration:line-through;
+	content:"JK LOL";
+	}
+ */
+
+
+/* 
+td{
+	width: 500px;
+	height: 500px;
+	background:url('pri/prian.png');
+	background-size:500px;
+	background-repeat:no-repeat;
+} 
+ */	
+
+img{
+	
+	width:30%;
+	float:left;
+	margin:20px;
+}
+
+
+/* Use float:left to put images beside each other, 
+	NO SPACE IN BETWEEN!  */
+
+/* a tag can have two classes, separated by a space */
+
+
+

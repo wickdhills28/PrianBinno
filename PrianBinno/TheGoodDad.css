@@ -1,0 +1,44 @@
+h1{
+	color:rgba(250,50,20,.8);
+/* 	Border needs: color,style and width to work */
+	border: 1px solid purple;
+	
+}
+/* Hex-colour system:
+ 	#_ _ _ _ _ _ , 
+ 	first 2 rep red;
+ RGB SYSTEM: RBG(Red,Blue,Green), 
+ 	max for each field is 255;
+ * RBGA - similar to RBG but with 4 channels,
+ 	4th channel is for transparency,
+ 	max on 4th channel is 1 so (0.0-1),
+ 	ex. rgba(0,200,100,.8);
+ 	
+ RGBA is best*/
+ 
+ 
+h3{
+	color:pink;
+}
+ 
+body{
+/* 	background:rgba(23,30,222,.1) */
+
+	background: url(https://www.knorr.com/content/dam/unilever/knorr_world/global/other_foods/all/knorr_sidekicks_butterherb_136g_3d-839801.png);
+/* 	background-repeat:no-repeat; */
+/* 	background-size: cover; */
+}
+
+div{
+	background:rgba(100,250,200,.1)
+}
+
+/* 
+Important Selectors:
+input[type=""]{}  ... selects certain types of inputs
+li a{}	selectors tag descendants
+*{} selects ALL
+ul:nth-of-type(3){}... selects the third ul tag
+nth-of-type(even) selects every other number
+	
+ */

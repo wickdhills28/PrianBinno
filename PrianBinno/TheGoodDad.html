@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--Hello -->
+	<title> The Good Dad</title>
+	
+<!-- 	link tag- References to other style -->
+<!-- Put link tag in <head>, NOT <body> -->
+	<link rel="stylesheet 
+	"type="text/css" href="TheGoodDad.css">
+
+</head>
+<body>
+
+
+
+<h1>The Good Dad</h1>
+
+<div>
+<h2>Prian Binno</h2>
+<img src = "pri/prian.png">
+<h3>"SUCH A GOOD DAD! - <em>Jason Luong"</em></h3>
+
+</div>
+
+<h1><a href="pri/gooddad2.html">More Good Dad</a></h1>
+<div>
+<img src="pri/prian2.png">
+<h2>"Kobras BABY"</h2>
+</div>
+
+<div>
+<img src="pri/prian3.png">
+<h2>"STAY IN YOUR LANE"</h2>
+</div>
+
+<div>
+<img src="pri/metlebron.png">
+<h2>"Met Lebron James LOL"</h2>
+</div>
+<div>
+<img src="pri/fkdad.png">
+<h2>"FUUUUUUCK DAD"</h2>
+</div>
+
+<!-- IMPORTANT FOR CLICK LINKs -->
+<h1><a href="https://www.instagram.com/pinnob/">I WANT MORE BRIAN</a></h1>
+<!-- Create another html file and href to it to get to there when clicking -->
+
+<!-- 
+<p> <b>bold Prian</b>  <em>binnno</em> OMG! </p>
+<p> <strong>strong prian binno</strong>  </p>
+ -->
+
+<!-- <ol> for order list(with numbers), rquire <li> in it-->
+<!-- <ul> is unordered list -->
+
+<!-- 
+<h3><strong>ARTISTS</strong></h3>
+<ol>
+	<li>The Weeknd
+		<ul> 
+			<li> 28</li> 
+			<li> <em>The Hills</em></li>
+			<li> Lonely Star</li>
+		</ul>
+	</li>
+	
+	<li>Bieber
+		<ul> 
+			<li> I'll Show You </li> 
+			<li> <em>Sorry</em> </li>
+			<li> Company </li>
+		</ul>
+	</li>
+	
+	<li> Zara Larsson 
+		<ul> 
+			<li> <em>Uncover</em> </li>
+		</ul>
+	</li>
+</ol>
+ -->
+
+<table border="10">
+<!-- Number assigned to border determines thickness of border  -->
+
+<thead>
+	<tr>
+		<th>Name</th>
+		<th>Job</th>
+		<th>Country</th>
+		
+		
+	</tr>
+</thead>
+
+<!-- 	<tr> is table-row, <td> is table-data,<th> is table-header-->
+
+<!-- Start of table body -->
+<tbody>
+<!-- 	NEW ROW -->
+	<tr> 
+		<td>Prian Binno</td>
+		<td>Model</td>
+		<td>Congo</td>
+	</tr>
+<!-- 	NEW ROW  -->
+	<tr>
+		<td>Prian Binno</td>
+		<td>Doctor</td>
+		<td>Congo</td>
+	</tr>
+<!-- 	NEW ROW -->
+	<tr>
+		<td>Prian Binno</td>
+		<td>Singer</td>
+		<td>Congo</td>
+	</tr>
+<!-- 	END OF table body -->
+
+</tbody>
+
+</table>
+
+
+<!-- action=where to send data to, usually to back-end of our webiste -->
+<!-- method=what HTTP method (get/post) -->
+
+<div>
+<h2>SignIn to visit The Good Place</h2>
+<form action="https://www.netflix.com" method="GET">
+
+<!-- Use <label> with "for" and <input> with "id" -->
+<!-- use 'required' to make something required to fill out in a form -->
+
+<!-- 	<label for="email"> Email: <label> -->
+<!-- 	<input id="email" type="email" placeholder="pinnob@dadbod.com"> -->
+	<label for="username"> Username:</label>
+	<input id="username" type="text" placeholder="Prian"
+		pattern=".{5,20}" required >
+		
+<!-- 	use pattern=".{min,max}" for specific input length	 -->
+<!-- use required title="" if you want an exact match entered -->
+ 
+	<label for="password"> Password:</label> 
+		<input id="password" type="password" placeholder="Binno"
+		required>
+	
+	
+<button>Login</button>
+</form>
+
+</div>
+
+<input type="color">
+
+<div>
+<form>
+	<p><em>Brian or Prian?</em></p>
+		<input name="borp"id="brian" type="radio"
+			value="Brian">
+	<label for="brian">Brian</label>
+	
+	<input name="borp" id="prian" type="radio"
+		value="Prian">
+		<label for="prian">Prian</label>
+	
+	<button>VOTE</button>
+</form>
+</div>
+
+<input type="checkbox">
+
+<!-- Scroll down options -->
+<form>
+<p>Favorite Artist</p>
+<select name="favArtist">
+	<option value="Kanye">Kanye</option>	
+	<option value="Biebs">Bieber</option>	
+	<option value="Travis">Travis</option>	
+	<option value="Ariana">Ariana</option>	
+	
+</select>
+</form>
+ 
+<!-- Text area tag gives you a larger text space -->
+<!-- specify rows="" and cols="" -->
+
+<textarea rows="10" cols="50"></textarea>
+
+
+
+<!-- use class="" or id="" to single things out -->
+<!-- # in .css for 'id', . for 'class' -->
+<!-- use 'text-decoration' for effects in .css file -->
+<!-- use "checked" for checkbox input to check text when refresh page -->
+
+
+</body>
+
+</html>
+
